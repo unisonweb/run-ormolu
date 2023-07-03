@@ -74,6 +74,7 @@ async function run() {
         }
     );
     const files = await globber.glob();
+    core.warning(files);
 
     // Extra args
 
